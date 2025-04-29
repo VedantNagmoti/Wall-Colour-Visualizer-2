@@ -149,6 +149,6 @@ if uploaded_image and (selected_color or texture_img):
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image(resized_img, caption="Original Resized", use_column_width=True)
+        st.image(resized_img, caption="Original Resized", use_container_width=True)
     with col2:
-        st.image(output_img, caption="Styled Output", use_column_width=True)
+        st.image(output_img, caption="Styled Output", use_container_width=True)
