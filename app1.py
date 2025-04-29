@@ -81,7 +81,7 @@ def apply_wall_style(original_image, seg_map, color=None, texture_img=None, opac
 # Streamlit UI
 # -------------------------------
 st.set_page_config(page_title="Wall Color Styler", layout="wide")
-st.title("🎨 Wall Color Styler using DeepLabV3")
+st.title("🎨 Wall Color Styler")
 
 uploaded_image = st.file_uploader("Upload an interior image", type=['jpg', 'jpeg', 'png'])
 
